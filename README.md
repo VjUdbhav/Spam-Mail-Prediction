@@ -15,8 +15,7 @@ Spam_Mail_Prediction/
 ├── dataset/
 │   └── spam.csv                 # Raw dataset (message + category)
 └── output/
-    ├── class_distribution.png   # Bar chart of spam vs ham counts
-    └── results.txt              # Saved train/test accuracy scores
+    └── class_distribution.png   # Bar chart of spam vs ham counts
 ```
 
 ## Dataset
@@ -74,8 +73,8 @@ Spam_Mail_Prediction/
 ## Sample Output
 
 ```
-Training Accuracy:
-Testing Accuracy:
+Training Accuracy: 96.7%
+Testing Accuracy:  96.6%
 
 Message: Congratulations! You've won a free iPhone. Click here to claim your prize now!
 Prediction: Spam
